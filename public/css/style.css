@@ -433,7 +433,7 @@ a:focus, a:hover, a:active {
   width: 50%;
 }
 
-.content-2 .table-striped > thead > tr > th{
+.content-1 .table-striped > thead > tr > th{
   background-color: #202020;
   border-color: #202020;
   color: #FFE400;
