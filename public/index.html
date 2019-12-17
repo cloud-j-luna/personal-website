@@ -539,6 +539,75 @@
       </div>
     </section>
 
+    <section id="papers" class="bg-secondary content-2">
+      <div class="container">
+        <h2 class="text-center mb-0">Papers</h2>
+        <hr class="mb-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Name</th>
+                  <th scope="col">Author</th>
+                  <th scope="col">Tags</th>
+                </tr>
+              </thead>
+              <tbody>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="work-experience" class="bg-secondary content-3">
+      <div class="container">
+        <h2 class="text-center mb-0">Work Experience</h2>
+        <hr class="mb-5">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <table class="table table-striped table-dark">
+              <thead>
+                <tr>
+                  <th scope="col">Company</th>
+                  <th scope="col">Role</th>
+                  <th scope="col">Start date</th>
+                  <th scope="col">End date</th>
+                  <th scope="col">Tags</th>
+                  <th scope="col">Sumary</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <!-- Item -->
+                  <th scope="row">CGI</th>
+                  <td>Cloud Native Developer</td>
+                  <td>July 2019</td>
+                  <td>Present</td>
+                  <td>
+                    <span class="badge badge-secondary">Azure</span>
+                    <span class="badge badge-secondary">Kubernetes</span>
+                    <span class="badge badge-secondary">Docker</span>
+                    <span class="badge badge-secondary">.NET Core</span>
+                    <span class="badge badge-secondary">DevOps</span>
+                    <span class="badge badge-secondary">Micro-services</span>
+                    <span class="badge badge-secondary">BDD</span>
+                  </td>
+                  <td>
+                    European project based on a event-driven micro-services architecture
+                    with advanced DevOps. Developed micro-services in .NET core
+                    with high focus on memory management and data ETL and compression.
+                    BDD testing with Specflow. Pipeline automatic generation of documentation.
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section class="bg-primary mb-0 content-2" id="overview">
       <div class="container">
         <h2 class="text-center">Overview</h2>
@@ -560,12 +629,14 @@
           <div class="col-lg-4 col-sm-6 mx-auto">
             <canvas id="languagesChart"></canvas>
           </div>
+          <!--
           <div class="col-lg-4 col-sm-6 mx-auto">
             <canvas id="SWEChart"></canvas>
             <p style="color: #FF652F;" class="text-center">
               <small><i class="fa fa-times-circle"></i> This chart means nothing yet.</small>
             </p>
           </div>
+        -->
           <div class="col-lg-4 col-sm-6 mx-auto">
             <canvas id="competitionChart"></canvas>
           </div>
@@ -703,6 +774,32 @@
               <hr class="mb-5">
               <img class="img-fluid mb-5" src="img/portfolio/broadify.png" alt="">
               <p class="mb-5">Under development. More will be revealed soon.</p>
+              <a class="btn btn-primary btn-lg portfolio-modal-dismiss" href="#">
+                Close
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio Modal BITalino -->
+    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
+      <div class="portfolio-modal-dialog">
+        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
+          <i class="fa fa-3x fa-times"></i>
+        </a>
+        <div class="container text-center">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h2 class="mb-0">Broadify</h2>
+              <hr class="mb-5">
+              <img class="img-fluid mb-5" src="img/portfolio/bitalino.png" alt="">
+              <p class="mb-5">
+                Developed the official nodejs linux API for BITalino IoT device.
+                Developed in Nodejs and C++, the API uses bluetooth RFCOMM sockets to communicate with the devices.
+                From BITalino's website: BITalino is a hardware and software toolkit that has been specifically designed to deal with the requirements of body signals.
+              </p>
               <a class="btn btn-primary btn-lg portfolio-modal-dismiss" href="#">
                 Close
               </a>
