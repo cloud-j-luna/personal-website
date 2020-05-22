@@ -33,7 +33,7 @@ const globalOptions = {
 var skillsChart = new Chart(sChart, {
     type: 'radar',
     data: {
-        labels: ['Experience', 'Cybersecurity', 'Algorithmics', 'Networking', 'AI', 'Math', 'Soft-Skills'],
+        labels: ['Reference', 'Cybersecurity', 'Algorithmics', 'Networking', 'AI', 'Math', 'Soft-Skills'],
         font: {
             weight: 'bold',
             size: 16,
@@ -56,14 +56,14 @@ var skillsChart = new Chart(sChart, {
 var languagesChart = new Chart(lChart, {
     type: 'radar',
     data: {
-        labels: ['Experience', 'C/C++', 'C#', 'ES5/6', 'Java', 'Python', 'SQL'],
+        labels: ['Reference', 'C/C++', 'C#', 'JS/TS', 'Java', 'Python', 'Go'],
         font: {
             weight: 'bold',
             size: 16,
           },
         datasets: [{
             label: '',
-            data: [100, 60, 80, 90, 70, 60, 45],
+            data: [100, 60, 90, 70, 70, 60, 45],
             backgroundColor: [
                 'rgba(20, 167, 108, 0.2)',
             ],
